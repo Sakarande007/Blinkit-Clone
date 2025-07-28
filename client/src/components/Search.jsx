@@ -23,7 +23,7 @@ const Search = () => {
     console.log("search",isSearchPage)
 
   return (
-    <div className='w-full min-w-[320px] lg:min-w-[420px] h-11 rounded-lg border overflow-hidden flex items-center text-neutral-500 bg-slate-50 group focus-within:border-primary-200'>
+    <div className='w-full min-w-[300px] lg:min-w-[420px] h-11 lg:h-12 rounded-lg border overflow-hidden flex items-center text-neutral-500 bg-slate-50 group focus-within:border-primary-200'>
       <button className='flex justify-center items-center h-full p-3 group-focus-within:bg-primary-200 '>
         <IoSearch size={22} />
       </button>

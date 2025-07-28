@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import Search from "./search";
+import Search from "./Search";
 import { FaRegCircleUser } from "react-icons/fa6";
 
-function Header() {
+const Header = () =>  {
+   
   return (
-    <header className=" lg:h-20 lg:shadow-md sticky top-0 bg-red-600">
-      <div className="container mx-auto flex items-center h-full px-2 justify-between">
+    <header className="h-24 lg:h-20 lg:shadow-md sticky top-0 bg-red-600 flex flex-col justify-center gap-1  ">
+      <div className="container mx-auto flex items-center px-2 justify-between">
         {/**Logo*/}
         <div className="h-full">
           <Link to={"/"} className="h-full flex justify-center items-center">
@@ -46,7 +47,7 @@ function Header() {
         </div>
         
     </header>
-  );
+  )
 }
 
 export default Header;
